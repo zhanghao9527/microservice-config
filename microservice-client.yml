@@ -9,10 +9,6 @@ spring:
   profiles: dev
   application:
     name: microservice-config-client
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/
 ---
 server:
   port: 8202
@@ -20,7 +16,3 @@ spring:
   profiles: test
   application:
     name: microservice-config-client
-eureka:
-  client:
-    service-url:
-      defaultZone: http://eureka7001.com:7001/eureka/
