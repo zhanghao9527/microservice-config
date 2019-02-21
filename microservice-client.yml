@@ -8,7 +8,7 @@ server:
 spring:
   profiles: dev
   application:
-    name: microservice-config-client
+    name: microservice-config-client1
 ---
 server:
   port: 8202
